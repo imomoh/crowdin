@@ -14,17 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.gms.location.sample.activityrecognition;
-
-import android.content.Context;
-import android.content.res.Resources;
+package edu.iu.imomohimail.crwdin5;
 
 import com.google.android.gms.location.DetectedActivity;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import java.lang.reflect.Type;
-import java.util.ArrayList;
 
 /**
  * Constants used in this sample.

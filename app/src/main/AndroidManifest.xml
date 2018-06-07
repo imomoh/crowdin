@@ -9,6 +9,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
 
     <application
 
@@ -42,6 +43,11 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps">
         </activity>
+
+        <service android:name=".GeofenceTrasitionService"/>
+        <service
+            android:name=".TransitionIntentService"
+            android:exported="false" />
 
     </application>
 

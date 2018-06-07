@@ -1,4 +1,4 @@
-package com.google.android.gms.location.sample.activityrecognition;
+package edu.iu.imomohimail.crwdin5;
 
 import android.content.Context;
 import android.content.res.Resources;

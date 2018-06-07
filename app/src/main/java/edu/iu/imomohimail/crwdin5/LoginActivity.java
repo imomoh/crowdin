@@ -25,6 +25,8 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
         if (ParseUser.getCurrentUser()!=null){
+
+
             Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
             startActivity(intent);
         }
@@ -45,13 +47,6 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
 
-
-                ParseUser.getCurrentUser().saveInBackground(new SaveCallback() {
-                    @Override
-                    public void done(ParseException e) {
-
-                    }
-                });
 
                 Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
                 startActivity(intent);
